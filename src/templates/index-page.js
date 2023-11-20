@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
+import Game from "../components/Game";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -32,6 +33,9 @@ export const IndexPageTemplate = ({
                   <div className="content">
                     <div className="tile">
                       <h1 className="title">{mainpitch.title}</h1>
+                    </div>
+                    <div className="content">
+                      <Game></Game>
                     </div>
                     <div className="tile">
                       <h3 className="subtitle">{mainpitch.description}</h3>
